@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body {
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    margin-left: 20px;
+}
+
+nav ul li a{
+    font-size: 20px!important;
+}
+
+
+/* ############ Hero Section ############# */
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('image/header-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#line1{
+    height: 2px;
+    background: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icons i{
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#icons i:hover{
+    transform: translateY(-8px);
+}
+
+/* ########## About Section ############## */
+.p-text {
+    color: #6b6b6e;
+    word-spacing: 2px;
+}
+
+
+/* ################ Education Section ############ */
+.education {
+    font-weight: 600;
+    color: #24242e;
+}
+
+
+/* ############### Skill Section ################# */
+.progress-heading-text {
+    color: #6b6b6e;
+}
+
+.technologies {
+    background-color: #ffffff;
+}
+
+
+/* ############### Contact Section ############# */
+
+.fa {
+    font-size: 2.5rem;
+    color: #24242e;;
+}
